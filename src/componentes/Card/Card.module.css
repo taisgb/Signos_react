@@ -1,21 +1,75 @@
-.card_signo {
+.card_signo_terra,
+.card_signo_ar,
+.card_signo_fogo,
+.card_signo_agua {
     width: 200px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    border-radius: 5px;
+    border-radius: 5px;    
+    font-weight: bold;
+  }
+
+  .card_signo_terra {
     background-color: #856957;
     color: #fff;
   }
+
+  .card_signo_ar {
+    background-color: #bae3ff;
+    color: #000b47;
+  }
+
+  .card_signo_fogo {
+    background-color: #e20000;
+    color: #fff;
+  }
+
+  .card_signo_agua {
+    background-color: #28a9ff;
+    color: #000000;
+  }
+
   
-  .card_signo h3 {
+  .card_signo_ar h3 {
     font-weight: 600;
     font-size: 18px;
+    display: flex;
   }
   
-  .card_signo img {
+  .card_signo_ar img {
+    flex: 1;
+    width: 180px;
+    height: 100px;
+    padding: 8px;
+    object-fit: contain;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+
+  .card_signo_terra img {
+    flex: 1;
+    width: 180px;
+    height: 100px;
+    padding: 8px;
+    object-fit: contain;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+
+  .card_signo_agua img {
+    flex: 1;
+    width: 180px;
+    height: 100px;
+    padding: 8px;
+    object-fit: contain;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+
+  .card_signo_fogo img {
     flex: 1;
     width: 180px;
     height: 100px;
@@ -25,6 +79,13 @@
     background-color: #fff;
   }
   
-  .card_signo span {
+  .card_signo_agua span {
     font-size: 14px;
+  }
+
+  .icone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }

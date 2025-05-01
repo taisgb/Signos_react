@@ -1,24 +1,27 @@
 import estilos from './page.module.css';
-import Topo from './components/Topo';
-import Card from './components/Card';
+import Card from '@/componentes/Card/Card';
+import Topo from '@/componentes/Topo/Topo';
 
-import Aquario from '/public/aquario.jpg';
-import Peixes from '/public/peixes.jpg';
-import Aries from '/public/aries.jpg';
-import Touro from '/public/touro.jpg';
-import Gemeos from '/public/gemeos.jpg';
-import Cancer from '/public/cancer.jpg';
-import Leao from '/public/leao.jpg';
-import Virgem from '/public/virgem.jpg';
-import Libra from '/public/libra.jpg';
-import Escorpiao from '/public/escorpiao.jpg';
-import Sagitario from '/public/sagitario.jpg';
-import Capricornio from '/public/capricornio.jpg';
+import Aquario from '@/public/aquario.jpg';
+import Peixes from '@/public/peixes.jpg';
+import Aries from '@/public/aries.jpg';
+import Touro from '@/public/touro.jpg';
+import Gemeos from '@/public/gemeos.jpg';
+import Cancer from '@/public/cancer.jpg';
+import Leao from '@/public/leao.jpg';
+import Virgem from '@/public/virgem.jpg';
+import Libra from '@/public/libra.jpg';
+import Escorpiao from '@/public/escorpiao.jpg';
+import Sagitario from '@/public/sagitario.jpg';
+import Capricornio from '@/public/capricornio.jpg';
 
 export default function Home() {
   return (
     <div>
-      <Topo />
+      <header>
+        <Topo/>
+      </header>
+    
       <main className={estilos.main_container}>
         <section>
           <Card elemento={'ar'} signo={"Aquário"} dataInicio={"21/01"}
